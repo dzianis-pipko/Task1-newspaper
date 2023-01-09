@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 2em;
+}
+
+article {
+    column-count: 2;
+    column-gap: 8em;
+    column-rule-style: solid;
+    column-rule-color: black;
+    column-width: 300px;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 1em;
+}
+
+.text {
+    text-indent: 20px
+}
