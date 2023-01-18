@@ -3,24 +3,37 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'PT Sans', sans-serif;
 }
-main {
+body {
     padding: 2em;
 }
 
 article {
-    column-count: 2;
-    column-gap: 8em;
-    column-rule-style: solid;
-    column-rule-color: black;
+    columns: 2 1rem;
+    column-rule: solid 1px black;
+    column-gap: 2rem;
     column-width: 300px;
+}
+
+ol {
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+li {
+    padding: 0;
+    margin: 0 0 20px;
+    list-style-position: inside;
 }
 
 p {
     font-family: 'PT Sans', sans-serif;
-    margin-bottom: 1em;
+    text-indent: 1rem;
+    margin: 0 0 30px;
 }
 
-.text {
-    text-indent: 20px
+li p {
+    margin: 10px 0;
+    font-family: 'PT Sans', sans-serif;
 }
